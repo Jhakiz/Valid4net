@@ -1,6 +1,6 @@
 # Valid4net
 
-Manage easyly your models validations by customizing different properties rules.
+Manage easyly your models validations in .NET by customizing different properties rules.
 
 # How to use
 

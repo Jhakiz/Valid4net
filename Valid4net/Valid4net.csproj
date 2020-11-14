@@ -3,12 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>HAKIZIMANA REK.</Authors>
-    <Description>Manage easyly your models validations by customizing different properties rules.</Description>
+    <Description>Manage easyly your classes models validations in .NET by customizing different properties rules.</Description>
     <Copyright>2020 HAKIZIMANA REK.</Copyright>
     <PackageTags>Validator, Valid4net, Validate for net, Validation</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/Jhakiz/Valid4net</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Jhakiz/Valid4net</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReleaseNotes>C# support</PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
   </PropertyGroup>
   
   <ItemGroup>
@@ -16,6 +20,10 @@
   </ItemGroup>
   
   <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
